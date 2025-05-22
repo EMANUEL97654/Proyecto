@@ -72,7 +72,6 @@ input{
 footer {
     background-color: #f0f0f0;
     padding: 2rem 1rem;
-    margin-top: 2rem;
 }
 
 footer h2 {
@@ -136,7 +135,7 @@ footer h2 {
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 3rem;
     padding: 2rem;
-    background-color: transparent;
+    background-color: rgba(27, 92, 190, 0.1);
     position:relative;
     z-index: 1;
 }
@@ -148,7 +147,6 @@ footer h2 {
     margin: 0 auto;
     height: auto;
     min-height: 200px;
-    border: 1px solid #ffffff;
     perspective: 1000px; 
 }
 
@@ -229,6 +227,11 @@ footer h2 {
 
 .navbar > ul > li {
     list-style-type: none;
+}
+
+.navbar > ul > li > a{
+    text-decoration: none;
+    color: #db930d;
 }
 
 .navbar > ul > li > a:hover{

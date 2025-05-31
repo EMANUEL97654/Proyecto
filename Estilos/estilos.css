@@ -133,8 +133,19 @@ main {
 footer {
     background-color: rgba(0, 0, 0, 0.7);
     padding: 2rem;
-    margin-top: 3rem;
+    margin-top: 50rem;
     color: #ccc;
+}
+footer iframe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border: none;
+}
+
+footer img {
+    border-radius: 10px;
 }
 
 footer h2 {
